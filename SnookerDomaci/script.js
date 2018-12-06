@@ -173,7 +173,6 @@ const second = game => {
 const third = game => {
     let score = 0;
     let reds = 0;
-    let points = game.thirdTurn.points;
     if (game.thirdTurn.playing === true) {
         score += 100;
         game.potted.forEach(pottedBall => {
